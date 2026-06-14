@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "keycloak-onboarding-listener",
+  "repo": "keycloak-onboarding-listener-stack-module",
+  "runtimeId": "keycloak-onboarding-listener",
+  "lifecycle": "active",
+  "dependencies": [
+    "stack-foundation"
+  ],
+  "overlays": [
+    "stack.kotlin/keycloak-onboarding-listener"
+  ],
+  "sourceRepo": "keycloak-onboarding-listener"
+}
