@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "schema": {
+      "additionalProperties": false,
+      "properties": {},
+      "type": "object"
+    }
+  },
+  "id": "keycloak-onboarding-listener",
+  "overlays": [
+    "stack.kotlin/keycloak-onboarding-listener"
+  ],
+  "provides": [
+    {
+      "capability": "module:keycloak-onboarding-listener",
+      "version": "1"
+    }
+  ],
+  "requires": [
+    {
+      "capability": "module:stack-foundation",
+      "version": "1"
+    }
+  ],
+  "schemaVersion": 1,
+  "services": [],
+  "verification": {
+    "commands": [
+      "test -f stack.module.json && test -f module.json"
+    ]
+  }
+}
